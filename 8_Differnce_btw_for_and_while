@@ -1,0 +1,12 @@
+Explain the difference between "for" and "while" loops in Python.
+FORLOOP
+A for loop is used for iterating over a sequence (e.g., list, tuple, string) or an iterable object (e.g., range object, dictionary).
+
+It iterates over the elements of a sequence or the items of an iterable object, executing a block of code for each iteration.
+
+The number of iterations is determined by the length of the sequence or the number of items in the iterable object.
+
+WHILE_LOOP
+A while loop is used for executing a block of code repeatedly as long as a specified condition is true.
+It repeatedly executes the code block until the condition becomes false.
+The number of iterations is not fixed in advance; it depends on when the condition becomes false

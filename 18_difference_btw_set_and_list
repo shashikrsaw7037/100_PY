@@ -1,0 +1,22 @@
+Explain the difference between a set and a list in Python.
+
+Set:
+
+A set is an unordered collection of unique elements.
+Sets are defined using curly braces {} or the set() constructor.
+Sets do not allow duplicate elements. If you try to add a duplicate element to a set, it will be ignored.
+Sets are mutable, meaning you can add or remove elements after creating them.
+Sets do not support indexing or slicing because they are unordered.
+Sets are typically used when you need to perform operations like checking for membership, finding intersections, unions, differences, etc.
+my_set = {1, 2, 3, 4, 5}
+
+
+List:
+
+A list is an ordered collection of elements.
+Lists are defined using square brackets [] or the list() constructor.
+Lists can contain duplicate elements, and they maintain the order of insertion.
+Lists are mutable, meaning you can modify, add, or remove elements after creating them.
+Lists support indexing and slicing, allowing you to access individual elements or sublists.
+Lists are versatile and commonly used for tasks like storing collections of items, iterating over elements, sorting, etc.
+my_list = [1, 2, 3, 4, 5]
